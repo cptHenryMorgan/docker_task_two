@@ -1,6 +1,6 @@
-FROM node:erbium-alpine3.12
-WORKDIR /opt/app
+FROM openjdk:8-slim
+WORKDIR
 COPY . .
-RUN npm install
-CMD ["npm", "start"]
+RUN
+CMD []
 EXPOSE 9999
