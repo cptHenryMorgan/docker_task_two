@@ -1,7 +1,7 @@
 version: '3.7'
 services:
-  jdk-app:
+  java-app:
     build: .
-    image: openjdk:1.0
+    image: java-app:1.0
     ports:
       - '9999:9999'
